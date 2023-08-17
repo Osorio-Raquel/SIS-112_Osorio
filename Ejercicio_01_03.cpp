@@ -8,7 +8,7 @@
 
 // Número de ejericio: 3
 
-// Problema planteado: Promedio de notas, escriba un programa que lea N notas y saque le promedio general.
+// Problema planteado: Promedio de notas, escriba un programa que lea N notas y saque le promedio general. 
 
 #include <iostream>
 using namespace std;

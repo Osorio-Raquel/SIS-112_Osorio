@@ -7,7 +7,7 @@
 // Fecha modificación: 17/08/2023
 
 // Número de ejericio: 14
-
+ 
 // Problema planteado: Escriba un programa que dato varios valores numéricos, hasta el que el usuario ingrese el valor de cero calculo la suma y el promedio de estos.
 
 #include <iostream>

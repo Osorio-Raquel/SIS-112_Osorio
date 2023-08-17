@@ -8,7 +8,7 @@
 
 // Número de ejericio: 2
 
-// Problema planteado: Volumen de una esfera
+// Problema planteado: Volumen de una esfera 
 
 #include <iostream>
 using namespace std;

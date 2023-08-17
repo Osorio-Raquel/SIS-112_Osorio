@@ -12,7 +12,7 @@
 
 #include <iostream>
 using namespace std;
-
+ 
 bool p(int n) 
 {
     int i;

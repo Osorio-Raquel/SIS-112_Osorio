@@ -7,7 +7,7 @@
 // Fecha modificación: ##/08/2023
 
 // Número de ejericio: 18
-
+ 
 // Problema planteado: Escribir un programa que calcule el volumen de una pirámide recta de base cuadrada
 
 #include <iostream>

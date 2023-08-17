@@ -5,7 +5,7 @@
 // Fecha creación: 17/08/2023
 
 // Fecha modificación: ##/08/2023
-
+ 
 // Número de ejericio: 25
 
 // Problema planteado: Escribir un programa que permita adivinar un número que sea genere internamente al azar, el cual está en el rango de 0 a 50. El usuario debe adivinar este número en base a

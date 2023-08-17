@@ -7,7 +7,7 @@
 // Fecha modificación: ##/08/2023
 
 // Número de ejericio: 23
-
+ 
 // Problema planteado:  Elabore un programa en el que dado un entero n > 1, calcule e imprima los elementos correspondientes a la conjetura de Ullman (en honor al matemático Ullman) que
 //consiste en lo siguiente:
 //- Empiece con cualquier entero positivo.

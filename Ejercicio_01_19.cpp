@@ -7,7 +7,7 @@
 // Fecha modificación: ##/08/2023
 
 // Número de ejericio: 19
-
+ 
 // Problema planteado: Convertir coordenadas polares en rectangulares.
 
 #include <iostream>

@@ -8,7 +8,7 @@
 
 // Número de ejericio: 1
 
-// Problema planteado: Área de un triángulo
+// Problema planteado: Área de un triángulo 
 
 #include <iostream>
 using namespace std;

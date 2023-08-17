@@ -17,7 +17,7 @@
 
 #include <iostream>
 using namespace std;
-
+ 
 void cal(char c, char o, int h) {
     double p[] = {0.25, 0.20, 0.15, 0.0};
     double t[] = {0.18, 0.14, 0.12, 0.0};
