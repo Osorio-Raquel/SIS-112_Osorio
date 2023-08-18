@@ -4,7 +4,7 @@
 
 // Fecha creación: 17/08/2023
 
-// Fecha modificación: ##/08/2023
+// Fecha modificación: 17/08/2023
 
 // Número de ejericio: 23
  
@@ -15,3 +15,22 @@
 //- Obtenga enteros sucesivamente repitiendo el proceso.
 //Al final se obtendrá el número 1, independientemente del entero inicial. Por ejemplo, cuando el entero inicial es 26, la secuencia será:
 // 26 13 40 20 10 5 16 8 4 2 1
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    cout << "ingrese el numero: " << endl;
+    cin >> n;
+    while (n>1){
+        if (n%2 == 0){
+            n/=2;
+        }
+        else{
+            n = (n*3)+1;
+        }
+    cout << n << " " << endl;
+    }
+    return 0;
+}

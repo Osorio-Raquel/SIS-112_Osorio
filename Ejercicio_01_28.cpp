@@ -4,8 +4,23 @@
 
 // Fecha creación: 17/08/2023
 
-// Fecha modificación: ##/08/2023
+// Fecha modificación: 17/08/2023
 
 // Número de ejericio: 28
  
 // Problema planteado: Multiplicar dos números naturales, sin emplear el operador de la multiplicación, empleando sumas sucesivas.
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a,b;
+    cout << "ingrese los numeros: " << endl;
+    cin >> a >> b;
+    int r = 0;
+    for (int i = 0; i < b; ++i){
+            r+=a;
+            }
+    cout << "el resultado es " << r << endl;
+    return 0;
+}

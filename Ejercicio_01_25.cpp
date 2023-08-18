@@ -4,7 +4,7 @@
 
 // Fecha creación: 17/08/2023
 
-// Fecha modificación: ##/08/2023
+// Fecha modificación: 17/08/2023
  
 // Número de ejericio: 25
 
@@ -28,3 +28,31 @@
 // Intento 5
 // ? 42
 // Felicitaciones… Adivinaste el número
+
+#include <iostream>
+#include<stdlib.h>
+using namespace std;
+
+int main() {
+    int a, b, c, i, num, intentos;
+    b=0;
+    c=50;
+    intentos = 5;
+    num=rand()%51;
+    for (i=1; i <= intentos; ++i){
+        cout << "Estoy pensando un numero entre " << b << " y " << c << endl;
+        cout << "intento " << i << endl;
+        cin >> a;
+        cout << a << endl;
+        if (a<num){
+            b=a;
+        }
+        else if (a>num){
+            c=a;
+        }
+        else {
+            cout << "Felicitaciones… Adivinaste el numero" << endl;
+        }
+    }
+    return 0;
+}
