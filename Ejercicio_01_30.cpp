@@ -25,6 +25,6 @@ int main() {
             s -= static_cast<double>(i) / (i - 1);
         }
     }
-    cout << "La suma de la sucesión hasta " << n << " términos es: " << s << endl;
+    cout << "La suma de la sucesion hasta " << n << " terminos es: " << s << endl;
     return 0;
 }
