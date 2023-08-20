@@ -4,7 +4,7 @@
 
 // Fecha creación: 18/08/2023
 
-// Fecha modificación: 18/08/2023
+// Fecha modificación: 19/08/2023
 
 // Número de ejericio: 46
 
@@ -21,7 +21,7 @@ int main() {
     int n;
     cout << "Vendedores: ";
     cin >> n;
-    for (int i = 1; i <= n; i++) {
+    for (int i = 1; i <= n; i++) { //calculos necesarios para cada vendedor
         double s, v;
         cout << "Vendedor " << i << ":" << endl;
         cout << "Sueldo base: ";

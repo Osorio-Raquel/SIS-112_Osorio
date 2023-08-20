@@ -4,7 +4,7 @@
 
 // Fecha creación: 18/08/2023
 
-// Fecha modificación: 18/08/2023
+// Fecha modificación: 19/08/2023
 
 // Número de ejericio: 55
 
@@ -22,8 +22,8 @@ int main() {
     int n, i, j;
     cout << "Ingrese un numero: ";
     cin >> n;
-    for (i = n; i >= 1; i--) {
-        for (j = 1; j <= i; j++) {
+    for (i = n; i >= 1; i--) { // Iterar a través de las filas
+        for (j = 1; j <= i; j++) { // Iterar a través de las columnas
             cout << j << "\t";
         }
         cout << endl;

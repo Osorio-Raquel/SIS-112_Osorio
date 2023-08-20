@@ -4,7 +4,7 @@
 
 // Fecha creación: 18/08/2023
 
-// Fecha modificación: 18/08/2023
+// Fecha modificación: 19/08/2023
 
 // Número de ejericio: 32
 
@@ -19,7 +19,7 @@ int main() {
     cin >> n;
     while (n > 0) {
         d = n % 10;
-        i = i * 10 + d;
+        i = i * 10 + d; //i es el nuevo numero
         n /= 10;
     }
     cout << "Numero con cifras al revés: " << i << endl;

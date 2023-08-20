@@ -4,7 +4,7 @@
 
 // Fecha creación: 17/08/2023
 
-// Fecha modificación: 17/08/2023
+// Fecha modificación: 19/08/2023
  
 // Número de ejericio: 8
 
@@ -18,7 +18,7 @@ int main() {
     int h, c;
     cout << "Ingrese la cantidad de horas de estacionamiento: ";
     cin >> h;
-    c = 7 + (h - 1) * 5;
+    c = 7 + (h - 1) * 5; //calcula el costo
     cout << "El costo de estacionamiento es: " << c<< " Bs" << endl;
     return 0;
 }

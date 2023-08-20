@@ -4,18 +4,18 @@
 
 // Fecha creación: 18/08/2023
 
-// Fecha modificación: 18/08/2023
+// Fecha modificación: 19/08/2023
 
 // Número de ejericio: 52
 
-// Problema planteado: Obtener xy utilizando productos sucesivos, tanto x como y son enteros positivos o negativos.
+// Problema planteado: Obtener x^y utilizando productos sucesivos, tanto x como y son enteros positivos o negativos.
 
 #include <iostream>
 using namespace std;
 
 int pot(int x, int y) {
     int r = 1;
-    for (int i = 0; i < abs(y); i++) r *= x;
+    for (int i = 0; i < abs(y); i++) r *= x; //producto sucesivo
     return (y < 0) ? 1 / r : r;
 }
 int main() {

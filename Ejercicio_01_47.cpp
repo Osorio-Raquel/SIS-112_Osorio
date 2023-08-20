@@ -4,7 +4,7 @@
 
 // Fecha creación: 18/08/2023
 
-// Fecha modificación: 18/08/2023
+// Fecha modificación: 19/08/2023
 
 // Número de ejericio: 47
 
@@ -16,7 +16,7 @@
 #include <iostream>
 using namespace std;
 
-double com(double v) { return v * 0.1; }
+double com(double v) { return v * 0.1; } // calcula el extra
 int main() {
     int n;
     cout << "Vendedor: ";

@@ -4,7 +4,7 @@
 
 // Fecha creación: 18/08/2023
 
-// Fecha modificación: 18/08/2023
+// Fecha modificación: 19/08/2023
 
 // Número de ejericio: 62
 
@@ -14,3 +14,25 @@
 // edad2
 // . . . . .
 // edad25
+
+#include <iostream>
+using namespace std;
+
+void ct(int e[], int tn) {
+    int tp = 0;
+    for (int i = 0; i < tn; i++) {
+        tp += (e[i] == 1) ? 6 : (e[i] == 2) ? 3 : (e[i] == 3) ? 2 : 0; // utilizo condiciones
+    }
+    cout << "El total de pañales diarios es: " << tp << endl;
+}
+int main() {
+    const int tn = 25;
+    int e[tn];
+    for (int i = 0; i < tn; i++) {
+        cout << "Ingrese la edad " << i+1 <<" : "<< endl;;
+        cin >> e[i];
+    }
+    ct(e, tn);
+    return 0;
+}
+

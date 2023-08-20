@@ -4,7 +4,7 @@
 
 // Fecha creación: 18/08/2023
 
-// Fecha modificación: 18/08/2023
+// Fecha modificación: 19/08/2023
 
 // Número de ejericio: 57
 
@@ -20,7 +20,7 @@ int main() {
     cin >> n;
     for (int i = 1; i <= n; i++) {
         int s = sqrt(i);
-        if (s * s == i) {
+        if (s * s == i) { // Comprobar si el número es un cuadrado perfecto
             cout << i << " es un cuadrado perfecto :D" << endl;
         }
     }

@@ -4,7 +4,7 @@
 
 // Fecha creación: 17/08/2023
 
-// Fecha modificación: 17/08/2023
+// Fecha modificación: 19/08/2023
 
 // Número de ejericio: 23
  
@@ -23,7 +23,7 @@ int main() {
     int n;
     cout << "ingrese el numero: " << endl;
     cin >> n;
-    while (n>1){
+    while (n>1){ //un bucle que se detiene cuando se obtiene el numero 1
         if (n%2 == 0){
             n/=2;
         }

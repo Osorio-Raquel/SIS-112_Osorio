@@ -4,7 +4,7 @@
 
 // Fecha creación: 18/08/2023
 
-// Fecha modificación: 18/08/2023
+// Fecha modificación: 19/08/2023
 
 // Número de ejericio: 33
 
@@ -17,7 +17,7 @@ int main() {
     int d, m, e, k;
     cout << "Ingrese la primera fecha: ";
     cin >> d >> m;
-    while (d < 1 or d > 30 or m < 1 or m > 12) {
+    while (d < 1 or d > 30 or m < 1 or m > 12) { //verifico que este en el rango
         cout << "Fecha erronea. Intente nuevamente: ";
         cin >> d >> m;
     }

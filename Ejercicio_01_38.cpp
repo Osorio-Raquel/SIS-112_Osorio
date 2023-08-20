@@ -4,7 +4,7 @@
 
 // Fecha creación: 18/08/2023
 
-// Fecha modificación: 18/08/2023
+// Fecha modificación: 19/08/2023
 
 // Número de ejericio: 38
 
@@ -17,7 +17,7 @@ using namespace std;
 int main() {
     double A = 25.0, B = 19.9, tA = 0.02, tB = 0.03;
     int a = 2009;
-    while (B <= A) {
+    while (B <= A) { //el bucle se detiene cuando a supere a b
         A *= (1 + tA);
         B *= (1 + tB);
         a++;

@@ -29,6 +29,7 @@ void saludar() {
     std::cout << "¡Hola, mundo!" << std::endl;
 }
 
+// USO ||, ? Y && EN ALGUNOS CASOS
 int main() {
     // Llamada
     saludar();

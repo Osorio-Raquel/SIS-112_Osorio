@@ -4,7 +4,7 @@
 
 // Fecha creación: 17/08/2023
 
-// Fecha modificación: 17/08/2023
+// Fecha modificación: 19/08/2023
 
 // Número de ejericio: 18
  
@@ -19,7 +19,7 @@ int main() {
     cin >> a;
     cout << "Ingrese la altura: ";
     cin >> h;
-    v = (a * a * h) / 3;
+    v = (a * a * h) / 3; //calcula el volumen
     cout << "El volumen de la piramide es: " << v << endl;
     return 0;
 }

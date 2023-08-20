@@ -4,7 +4,7 @@
 
 // Fecha creación: 17/08/2023
 
-// Fecha modificación: 17/08/2023
+// Fecha modificación: 19/08/2023
 
 // Número de ejericio: 30
  
@@ -20,7 +20,7 @@ int main() {
     cin >> n;
     for (int i = 2; i <= n; ++i) {
         if (i % 2 == 0) {
-            s += static_cast<double>(i) / (i - 1);
+            s += static_cast<double>(i) / (i - 1); //cambia a i de int a double
         } else {
             s -= static_cast<double>(i) / (i - 1);
         }

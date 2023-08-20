@@ -4,7 +4,7 @@
 
 // Fecha creación: 18/08/2023
 
-// Fecha modificación: 18/08/2023
+// Fecha modificación: 19/08/2023
 
 // Número de ejericio: 43
 
@@ -15,7 +15,7 @@ using namespace std;
 
 int main() {
     int n, s = 0, c = 0;
-    while (cout << "Ingrese un numero entero positivo o un numero negativo/0 para detener: " and cin >> n and n > 0) {
+    while (cout << "Ingrese un numero entero positivo o un numero negativo/0 para detener: " and cin >> n and n > 0) { //bucle que se detiene en 0
         s += n;
         c++;
     }

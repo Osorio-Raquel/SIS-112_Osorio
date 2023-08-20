@@ -4,7 +4,7 @@
 
 // Fecha creación: 17/08/2023
 
-// Fecha modificación: 17/08/2023
+// Fecha modificación: 19/08/2023
 
 // Número de ejericio: 17
  
@@ -17,7 +17,7 @@ int main() {
     double b, e, d, l;
     cout << "Ingrese el valor en bolivianos:";
     cin >> b;
-    e = b * 0.12;
+    e = b * 0.12; //Conversion de unidades
     d = b * 6.96;
     l = b * 0.09;
     cout << "Euros: " << e << " Dolares: " << d << " Libras Esterlinas: " << l << endl;

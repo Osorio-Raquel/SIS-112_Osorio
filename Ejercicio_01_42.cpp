@@ -4,7 +4,7 @@
 
 // Fecha creación: 18/08/2023
 
-// Fecha modificación: 18/08/2023
+// Fecha modificación: 19/08/2023
 
 // Número de ejericio: 42
 
@@ -25,7 +25,7 @@ int main() {
         cin >> p;
         cin >> h;
         cin >> hue;
-        c = (p * h) / hue;
+        c = (p * h) / hue; //calculo de la calidad
         sumc += c;
     }
     promC = sumc / n;

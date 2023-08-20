@@ -4,7 +4,7 @@
 
 // Fecha creación: 17/08/2023
 
-// Fecha modificación: 17/08/2023
+// Fecha modificación: 19/08/2023
 
 // Número de ejericio: 20
  
@@ -17,7 +17,7 @@ int main() {
     int a, b, c, m;
     cout << "ingrese los numeros: " << endl;
     cin >> a >> b >> c;
-    if (a != b && b != c && a!= c){
+    if (a != b && b != c && a!= c){ //verifico si son iguales o no
         m = min(a,min(b,c));
         cout << "el menor nuemro es: " << m << endl;
     }

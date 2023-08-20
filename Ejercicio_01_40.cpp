@@ -4,7 +4,7 @@
 
 // Fecha creación: 18/08/2023
 
-// Fecha modificación: 18/08/2023
+// Fecha modificación: 19/08/2023
 
 // Número de ejericio: 40
 
@@ -23,7 +23,7 @@ int main() {
     cin >> f;
     c = f - p;
     double d[] = {5, 1, 0.5, 0.2, 0.1};
-    for (double m : d) {
+    for (double m : d) { //un bucle for-each
         int a = c / m;
         if (a > 0) {
             cout << "Monedas de " << m << " Bs: " << a << endl;

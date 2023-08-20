@@ -4,7 +4,7 @@
 
 // Fecha creación: 17/08/2023
 
-// Fecha modificación: ##/08/2023
+// Fecha modificación: 19/08/2023
 
 // Número de ejericio: 22
  
@@ -17,7 +17,7 @@ using namespace std;
 
 void cal(int c, double p) {
     double t = c * p;
-    if (c < 5) {
+    if (c < 5) { //verifico la cantidad de computadoras
         t -= t * 0.1;
     } else if (c < 10) {
         t -= t * 0.2;

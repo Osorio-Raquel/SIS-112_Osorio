@@ -4,7 +4,7 @@
 
 // Fecha creación: 18/08/2023
 
-// Fecha modificación: 18/08/2023
+// Fecha modificación: 19/08/2023
 
 // Número de ejericio: 37
 
@@ -17,7 +17,7 @@ int main() {
     int n, r = 1, c = 1;
     cout << "Ingrese un numero entero: ";
     cin >> n;
-    while (c <= n) {
+    while (c <= n) { // multiplicaciones sucesivas c aumenta el valor hasta n 
         r *= c;
         c++;
     }

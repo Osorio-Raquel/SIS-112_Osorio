@@ -4,7 +4,7 @@
 
 // Fecha creación: 18/08/2023
 
-// Fecha modificación: 18/08/2023
+// Fecha modificación: 19/08/2023
 
 // Número de ejericio: 50
 
@@ -15,7 +15,7 @@
 using namespace std;
 
 double op(int a, int b, char op) {
-    return (op == '+') ? a + b : (op == '-') ? a - b : (op == '*') ? a * b : (b != 0) ? static_cast<double>(a) / b : 0;
+    return (op == '+') ? a + b : (op == '-') ? a - b : (op == '*') ? a * b : (b != 0) ? static_cast<double>(a) / b : 0; // cambioa a de int a double
 }
 int main() {
     int n, m;

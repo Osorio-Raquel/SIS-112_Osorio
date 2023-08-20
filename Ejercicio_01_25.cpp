@@ -30,7 +30,7 @@
 // Felicitaciones… Adivinaste el número
 
 #include <iostream>
-#include<stdlib.h>
+#include<stdlib.h> // para hallar el random
 using namespace std;
 
 int main() {

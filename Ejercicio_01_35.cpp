@@ -4,7 +4,7 @@
 
 // Fecha creación: 18/08/2023
 
-// Fecha modificación: 18/08/2023
+// Fecha modificación: 19/08/2023
 
 // Número de ejericio: 35
 
@@ -27,7 +27,7 @@ int main() {
         cout << "Ingrese el monto de la compra del cliente " << i + 1 << ": ";
         cin >> c;
         t += c;
-        if (c >= 100 && c < 500) {
+        if (c >= 100 && c < 500) { //verificamos en que caso cae
             d += c * 0.95;
         } else if (c >= 500) {
             d += c * 0.92;

@@ -4,7 +4,7 @@
 
 // Fecha creación: 18/08/2023
 
-// Fecha modificación: 18/08/2023
+// Fecha modificación: 19/08/2023
 
 // Número de ejericio: 44
 
@@ -19,7 +19,7 @@ int main() {
     double s = 0, i = 0;
     cout << "Cantidad de productos vendidos: ";
     cin >> n;
-    for ( j = 1; j <= n; j++) {
+    for ( j = 1; j <= n; j++) { // calculo para cada producto
         double p;
         cout << "Precio del producto " << j << " Bs: ";
         cin >> p;

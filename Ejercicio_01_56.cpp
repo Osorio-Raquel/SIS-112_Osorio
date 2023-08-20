@@ -2,7 +2,7 @@
 
 // Autor: Raquel Osorio Mamani
 
-// Fecha creación: 18/08/2023
+// Fecha creación: 19/08/2023
 
 // Fecha modificación: 18/08/2023
 
@@ -24,7 +24,7 @@ int main() {
     cin >> n;
     for (i = 0; i < n; i++) {
         for (j = 0; j < n; j++) {
-            cout << (i + j) % 2 << "\t";
+            cout << (i + j) % 2 << "\t";// Calcular y mostrar el valor 0 o 1
         }
         cout << endl;
     }

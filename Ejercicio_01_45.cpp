@@ -4,7 +4,7 @@
 
 // Fecha creación: 18/08/2023
 
-// Fecha modificación: 18/08/2023
+// Fecha modificación: 19/08/2023
 
 // Número de ejericio: 45
 
@@ -13,7 +13,7 @@
 #include <iostream>
 using namespace std;
 
-bool e(int n) {
+bool e(int n) { //funcion para numero primos
     int i;
     if (n <= 1) return false;
     for (i = 2; i * i <= n; i++) {

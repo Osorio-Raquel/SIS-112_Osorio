@@ -4,7 +4,7 @@
 
 // Fecha creación: 17/08/2023
 
-// Fecha modificación: 17/08/2023
+// Fecha modificación: 19/08/2023
 
 // Número de ejericio: 1
 
@@ -20,7 +20,7 @@ int main()
     cin >> b;
     cout << "Ingrese la altura del triangulo: ";
     cin >> a;
-    area = 0.5 * b * a;
+    area = 0.5 * b * a; // calcula el area
     cout << "El area del triangulo es: " << area << endl;
     return 0;
 }

@@ -4,7 +4,7 @@
 
 // Fecha creación: 18/08/2023
 
-// Fecha modificación: 18/08/2023
+// Fecha modificación: 19/08/2023
 
 // Número de ejericio: 49
 
@@ -19,7 +19,7 @@ int main() {
     cout << "Capital: "; cin >> c;
     cout << "Interes: "; cin >> i;
     cout << "años: "; cin >> n;
-    double cn = c * (1 + i)* n;
+    double cn = c * (1 + i)* n; //la formula dada
     cout << "capital cn: " << cn << endl;
     cout << "Intereses: " << (cn - c) << endl;
     return 0;

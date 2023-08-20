@@ -4,14 +4,14 @@
 
 // Fecha creación: 17/08/2023
 
-// Fecha modificación: 17/08/2023
+// Fecha modificación: 19/08/2023
 
 // Número de ejericio: 19
  
 // Problema planteado: Convertir coordenadas polares en rectangulares.
 
 #include <iostream>
-#include <cmath>
+#include <cmath> //para realizare la operacion
 using namespace std;
 int main() {
     double r, t, x, y;

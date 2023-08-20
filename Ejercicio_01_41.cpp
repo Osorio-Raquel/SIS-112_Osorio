@@ -4,7 +4,7 @@
 
 // Fecha creación: 18/08/2023
 
-// Fecha modificación: 18/08/2023
+// Fecha modificación: 19/08/2023
 
 // Número de ejericio: 41
 
@@ -17,8 +17,7 @@
 using namespace std;
 
 double calcPago(double h, double t) {
-    return (h <= 40) ? h * t : 40 * t + (h - 40) * t * 2;
-}
+    return (h <= 40) ? h * t : 40 * t + (h - 40) * t * 2; } // calcula el pago con condiciones 
 double cN(double p) {
     return p * 0.95;
 }

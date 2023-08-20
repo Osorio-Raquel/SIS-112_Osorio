@@ -4,7 +4,7 @@
 
 // Fecha creación: 17/08/2023
 
-// Fecha modificación: 17/08/2023
+// Fecha modificación: 19/08/2023
 
 // Número de ejericio: 26
  
@@ -21,7 +21,7 @@ int main() {
 
     cout << "Ingrese el numero de articulos en el carrito: ";
     cin >> n;
-    for (int i = 0; i < n; ++i) {
+    for (int i = 0; i < n; ++i) { // Iterar a través de cada artículo
         double p, c;
         cout << "Articulo " << i + 1 << ":" << endl;
         cout << "Ingrese el precio del articulo: ";

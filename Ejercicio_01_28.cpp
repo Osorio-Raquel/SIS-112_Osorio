@@ -4,7 +4,7 @@
 
 // Fecha creación: 17/08/2023
 
-// Fecha modificación: 17/08/2023
+// Fecha modificación: 19/08/2023
 
 // Número de ejericio: 28
  
@@ -18,7 +18,7 @@ int main() {
     cout << "ingrese los numeros: " << endl;
     cin >> a >> b;
     int r = 0;
-    for (int i = 0; i < b; ++i){
+    for (int i = 0; i < b; ++i){ //un blucle epara sumar sucesivamente
             r+=a;
             }
     cout << "el resultado es " << r << endl;

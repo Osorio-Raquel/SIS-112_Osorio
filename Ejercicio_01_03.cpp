@@ -4,7 +4,7 @@
 
 // Fecha creación: 17/08/2023
 
-// Fecha modificación: 17/08/2023
+// Fecha modificación: 19/08/2023
 
 // Número de ejericio: 3
 
@@ -19,7 +19,7 @@ int main()
     double s = 0.0, m, p;
     cout << "Ingrese la cantidad de notas: ";
     cin >> n;
-    for (i = 1; i <=n; ++i) 
+    for (i = 1; i <=n; ++i)  //suma todas las notas
     {
         cout << "Ingrese la nota " <<i<< ": ";
         cin>> m;

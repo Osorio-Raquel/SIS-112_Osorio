@@ -4,7 +4,7 @@
 
 // Fecha creación: 17/08/2023
 
-// Fecha modificación: 17/08/2023
+// Fecha modificación: 19/08/2023
  
 // Número de ejericio: 5
 
@@ -21,7 +21,7 @@ int main()
     cin >> x1 >> y1;
     cout << "Ingrese las coordenadas x e y del punto P2: ";
     cin >> x2 >> y2;
-    d = sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1));
+    d = sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1)); //usa la formula para hallar la distancvia 
     cout << "La distancia entre los puntos P1 y P2 es: " << d << endl;
     return 0;
 }

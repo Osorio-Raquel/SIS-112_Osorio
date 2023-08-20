@@ -4,7 +4,7 @@
 
 // Fecha creación: 18/08/2023
 
-// Fecha modificación: 18/08/2023
+// Fecha modificación: 19/08/2023
 
 // Número de ejericio: 31
 
@@ -17,7 +17,7 @@ int main() {
     int a,b;
     cout << "ingrese los numeros: " << endl;
     cin >> a >> b;
-    if (a % b == 0 || b & a == 0){
+    if (a % b == 0 || b & a == 0){ //verificamos si son divisibles entre si
         cout << "son multiplos!" << endl;
     }
     else{

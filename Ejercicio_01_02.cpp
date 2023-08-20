@@ -4,7 +4,7 @@
 
 // Fecha creación: 17/08/2023
 
-// Fecha modificación: 17/08/2023
+// Fecha modificación: 19/08/2023
 
 // Número de ejericio: 2
 
@@ -18,7 +18,7 @@ int main()
     double r, v;
     cout << "Ingrese el radio de la esfera: ";
     cin >> r;
-    v = (4.0 / 3.0)*3.14159*r*r*r;
+    v = (4.0 / 3.0)*3.14159*r*r*r; // calcula el volumen
     cout << "El volumen de la esfera es: " << v << endl;
     return 0;
 }

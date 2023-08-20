@@ -4,7 +4,7 @@
 
 // Fecha creación: 18/08/2023
 
-// Fecha modificación: 18/08/2023
+// Fecha modificación: 19/08/2023
 
 // Número de ejericio: 48
 
@@ -19,7 +19,7 @@ int main() {
     cin >> a;
     cout << "Ingrese B: ";
     cin >> b;
-    for (int i = a; i <= b; i++) {
+    for (int i = a; i <= b; i++) { //i esta dentro del rango encientra los numeros y suma 1 por cada numero encontrado
         if (i % 2 == 0) {
             c++;
         }

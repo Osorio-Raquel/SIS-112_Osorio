@@ -4,7 +4,7 @@
 
 // Fecha creación: 18/08/2023
 
-// Fecha modificación: 18/08/2023
+// Fecha modificación: 19/08/2023
 
 // Número de ejericio: 36
 
@@ -14,7 +14,7 @@
 using namespace std;
 
 int main() {
-    int n, e, i, m = 0, a = 0;
+    int n, e, i, m = 0, a = 0; // m y a son mis contadores
     double h, sa = 0, sh = 0;
     cout << "Ingrese el numero de alumnos: ";
     cin >> n;

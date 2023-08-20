@@ -4,7 +4,7 @@
 
 // Fecha creación: 17/08/2023
 
-// Fecha modificación: 17/08/2023
+// Fecha modificación: 19/08/2023
 
 // Número de ejericio: 29
  
@@ -20,7 +20,7 @@ int main() {
     double u, t;
     cout << "Ingrese la cantidad de llantas compradas: ";
     cin >> c;
-    if (c < 5) {
+    if (c < 5) { //verificar los casos de cvantidad
         u = 300;
     } else if (c <= 10) {
         u = 250;

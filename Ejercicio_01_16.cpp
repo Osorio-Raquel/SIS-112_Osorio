@@ -4,7 +4,7 @@
 
 // Fecha creación: 17/08/2023
 
-// Fecha modificación: 17/08/2023
+// Fecha modificación: 19/08/2023
 
 // Número de ejericio: 16
  
@@ -17,7 +17,7 @@ int main() {
     int s, h, m;
     cout << "ingrese el valor en segundos";
     cin >> s;
-    h = s / 3600;
+    h = s / 3600;  //el proceso de transformar los segundos
     s %= 3600;
     m = s / 60;
     s %= 60;

@@ -4,7 +4,7 @@
 
 // Fecha creación: 17/08/2023
 
-// Fecha modificación: 17/08/2023
+// Fecha modificación: 19/08/2023
 
 // Número de ejericio: 27
  
@@ -15,7 +15,7 @@
 #include<stdlib.h>
 using namespace std;
 
-int s(int m)
+int s(int m) //funcion para hallar la suma de sus divisores (usada en numero amigo tambien)
 {
     int su = 0, i;
     for (i = 1; i <= m / 2; ++i) {
