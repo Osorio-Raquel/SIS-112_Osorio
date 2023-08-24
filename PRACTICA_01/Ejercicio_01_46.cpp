@@ -4,7 +4,7 @@
 
 // Fecha creación: 18/08/2023
 
-// Fecha modificación: 19/08/2023
+// Fecha modificación: 24/08/2023
 
 // Número de ejericio: 46
 
@@ -15,20 +15,22 @@
 #include <iostream>
 using namespace std;
 
-double com(double v) { return v * 0.1; }
+double com(double v, double u) { return (v * u)/10; }
 
 int main() {
-    int n;
+    int n, u;
+    double s, v;
     cout << "Vendedores: ";
     cin >> n;
+    cout << "Precio de producto unitario:";
+    cin >> u;
+    cout << "Sueldo base general: ";
+    cin >> s;
     for (int i = 1; i <= n; i++) { //calculos necesarios para cada vendedor
-        double s, v;
         cout << "Vendedor " << i << ":" << endl;
-        cout << "Sueldo base: ";
-        cin >> s;
         cout << "Ventas: ";
         cin >> v;
-        double c = com(v);
+        double c = com(v, u);
         cout << "Comisiones: " << c << " Bs." << endl;
         cout << "Total: " << s + c << " Bs." << endl;
     }
